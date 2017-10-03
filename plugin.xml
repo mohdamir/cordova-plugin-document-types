@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-document-types" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>App Document Types</name>
+    <author>Mohammad Amir(mohammad.amir@powwowmobile.com)</author>
+    <description>Cordova plugin to set document types</description>
+    <keywords>cordova, ios, app, document, types</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
+        <array>
+            <dict>
+                <key>CFBundleTypeIconFiles</key>
+                <array>
+                    <string>/Users/raju_sonawane/dev/Projects/fileopendemo/www/img/ionic.png</string>
+                    <string>ionic</string>
+                </array>
+                <key>CFBundleTypeName</key>
+                <string>PDF</string>
+                <key>CFBundleTypeRole</key>
+                <string>Editor</string>
+                <key>LSHandlerRank</key>
+                <string>Owner</string>
+                <key>LSItemContentTypes</key>
+                <array>
+                    <string>com.adobe.pdf</string>
+                </array>
+            </dict>
+            <dict>
+                <key>CFBundleTypeIconFiles</key>
+                <array>
+                    <string>/Users/raju_sonawane/dev/Projects/fileopendemo/www/img/ionic.png</string>
+                    <string>ionic</string>
+                </array>
+                <key>CFBundleTypeName</key>
+                <string>Word</string>
+                <key>CFBundleTypeRole</key>
+                <string>Editor</string>
+                <key>LSHandlerRank</key>
+                <string>Owner</string>
+                <key>LSItemContentTypes</key>
+                <array>
+                    <string>org.openxmlformats.wordprocessingml.document</string>
+                </array>
+            </dict>
+        </array>
+      </config-file>
+    </platform>
+</plugin>

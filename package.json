@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-document-types",
+  "version": "0.0.1",
+  "author": "Mohammad Amir (mohammad.amir@powwowmobile.com)",
+  "description": "Cordova / PhoneGap Plugin to set document types to expose app for opening documents",
+  "cordova": {
+    "id": "cordova-plugin-document-types",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohdamir/cordova-plugin-document-types.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "document",
+    "types",
+    "interaction",
+    "editing",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohdamir/cordova-plugin-document-types/issues"
+  },
+  "homepage": "https://github.com/mohdamir/cordova-plugin-document-types#readme"
+}
