@@ -14,7 +14,6 @@
             <dict>
                 <key>CFBundleTypeIconFiles</key>
                 <array>
-                    <string>/Users/raju_sonawane/dev/Projects/fileopendemo/www/img/ionic.png</string>
                     <string>ionic</string>
                 </array>
                 <key>CFBundleTypeName</key>
@@ -31,7 +30,6 @@
             <dict>
                 <key>CFBundleTypeIconFiles</key>
                 <array>
-                    <string>/Users/raju_sonawane/dev/Projects/fileopendemo/www/img/ionic.png</string>
                     <string>ionic</string>
                 </array>
                 <key>CFBundleTypeName</key>
